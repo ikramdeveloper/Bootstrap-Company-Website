@@ -1,0 +1,18 @@
+.menu {
+  @include gradient;
+  margin-bottom: 9rem;
+
+  li {
+    padding: 0.4rem 0.7rem;
+
+    a {
+      color: $white;
+      padding: 0 0.7rem;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+    &:hover {
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "custom";
+
+// IMPORT THE MEDIA
+@import "breakpoints";
+
+// IMPORT THE COMPONENTS
+@import "components/animation";
+@import "components/mixin";
+@import "components/typography";
+@import "components/button";
+
+// IMPORT THE SECTIONS
+@import "sections/navbar";
+@import "sections/intro";
+@import "sections/companies";
+@import "sections/services";
+@import "sections/testimonials";
+@import "sections/faq";
+@import "sections/portfolio";
+@import "sections/get-started";
+@import "sections/footer";
